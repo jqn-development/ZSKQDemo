@@ -98,7 +98,7 @@ export default class Welcome extends Component {
       <Image style={styles.searchIcon} source={splash}/>
 
         <Text style={styles.welcome} onPress={this.onPressFeed.bind(this)}>
-          jump to feed
+          jump to feed haha
         </Text>
 
         <Text style={styles.welcome} onPress={this.onPressNavbar.bind(this)}>
