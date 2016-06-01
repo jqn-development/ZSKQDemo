@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/emily/dev_temp/AwesomeProject/android/app/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="303f3c19296009125297a0cf7971c55c55ec0d6f">
+        <dex dex="/Users/emily/dev_temp/AwesomeProject/android/app/build/intermediates/pre-dexed/debug/classes-1de0cdaa159560c9506ab727f5e468b23d4e5d19.jar" />
+    </item>
+
+</items>
