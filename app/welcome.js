@@ -69,6 +69,10 @@ export default class Welcome extends Component {
     RNManager.showMessage("jump to modal");
     this.props.navigator.push({name: 'modal'});
   }
+  onPressBrowser(){
+    RNManager.showMessage("jump to browser");
+    this.props.navigator.push({name: 'browser'});
+  }
 
   onPressRNManager(){
     RNManager.showMessage(token);
@@ -146,6 +150,10 @@ export default class Welcome extends Component {
 
         <Text style={styles.welcome} onPress={this.onPressModal.bind(this)}>
           jump to modal
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressBrowser.bind(this)}>
+          jump to browser
         </Text>
 
         <Text style={styles.welcome}  onPress={this.onPressRNManager.bind(this)}>
