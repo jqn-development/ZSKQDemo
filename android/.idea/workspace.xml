@@ -23,71 +23,7 @@
     <favorites_list name="android" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AwesomeProject.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1464833951000" expanded="true" signature="78:2779" placeholder="/**...*/" />
-                <marker date="1464833951000" expanded="true" signature="2841:3199" placeholder="/**...*/" />
-                <marker date="1464833951000" expanded="true" signature="3251:3321" placeholder="/**...*/" />
-                <marker date="1464833951000" expanded="true" signature="3373:4794" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="3450:3669" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="3608:3622" placeholder="{" />
-                <marker date="1464833951000" expanded="true" signature="3653:3663" placeholder="}" />
-                <marker date="1464833951000" expanded="true" signature="3681:3904" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="3695:3898" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="3920:4106" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="3938:4100" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="4186:4792" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="4228:4786" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="4252:4428" placeholder="..." />
-                <marker date="1464833951000" expanded="true" signature="4571:4776" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="4809:5078" placeholder="{...}" />
-                <marker date="1464833951000" expanded="true" signature="5080:5206" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/awesomeproject/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78074074">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2518,8 +2454,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="72" />
+    <option name="x" value="171" />
+    <option name="y" value="101" />
     <option name="width" value="1584" />
     <option name="height" value="953" />
   </component>
@@ -2548,6 +2484,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2644,8 +2582,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -2931,12 +2867,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="72" width="1584" height="953" extended-state="0" />
-    <editor active="true" />
+    <frame x="171" y="101" width="1584" height="953" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29053178" sideWeight="0.5106686" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29053178" sideWeight="0.51635844" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2948,7 +2884,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29053178" sideWeight="0.48933142" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29053178" sideWeight="0.48364154" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2982,26 +2918,8 @@
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1464833951000" expanded="true" signature="78:2779" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="2841:3199" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="3251:3321" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="3373:4794" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3450:3669" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3608:3622" placeholder="{" />
-            <marker date="1464833951000" expanded="true" signature="3653:3663" placeholder="}" />
-            <marker date="1464833951000" expanded="true" signature="3681:3904" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3695:3898" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3920:4106" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3938:4100" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4186:4792" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4228:4786" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4252:4428" placeholder="..." />
-            <marker date="1464833951000" expanded="true" signature="4571:4776" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4809:5078" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="5080:5206" placeholder="..." />
-          </folding>
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3009,12 +2927,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwesomeProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/awesomeproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3038,25 +2983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1464833951000" expanded="true" signature="78:2779" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="2841:3199" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="3251:3321" placeholder="/**...*/" />
-            <marker date="1464833951000" expanded="true" signature="3373:4794" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3450:3669" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3608:3622" placeholder="{" />
-            <marker date="1464833951000" expanded="true" signature="3653:3663" placeholder="}" />
-            <marker date="1464833951000" expanded="true" signature="3681:3904" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3695:3898" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3920:4106" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="3938:4100" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4186:4792" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4228:4786" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4252:4428" placeholder="..." />
-            <marker date="1464833951000" expanded="true" signature="4571:4776" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="4809:5078" placeholder="{...}" />
-            <marker date="1464833951000" expanded="true" signature="5080:5206" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3070,14 +2997,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/awesomeproject/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78074074">
+        <state vertical-scroll-proportion="0.68">
           <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

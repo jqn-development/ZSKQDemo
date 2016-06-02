@@ -22,6 +22,8 @@ import CalendarDemo from './app/CalendarDemo.js';
 import CameraDemo from './app/CameraDemo.js';
 import ModalDemo from './app/ModalDemo.js';
 import PhotoBrowserExample from './app/PhotoBrowserExample.js';
+import AreaPicker from './app/AreaPicker.js';
+import DatePicker from './app/DatePicker.js';
 
 let _navigator;
 
@@ -70,6 +72,10 @@ class AwesomeProject extends Component {
         break;
       case "browser":
         Component = PhotoBrowserExample;
+      case "areapicker":
+        Component = AreaPicker;
+      case "datepicker":
+        Component = DatePicker;
     }
     return <Component navigator={navigator} />
   }
