@@ -24,6 +24,7 @@ import ModalDemo from './app/ModalDemo.js';
 import PhotoBrowserExample from './app/PhotoBrowserExample.js';
 import AreaPicker from './app/AreaPicker.js';
 import DatePicker from './app/DatePicker.js';
+import EStyleSheetDemo from './app/EStyleSheetDemo.js';
 
 let _navigator;
 
@@ -76,6 +77,8 @@ class AwesomeProject extends Component {
         Component = AreaPicker;
       case "datepicker":
         Component = DatePicker;
+      case "estylesheet":
+        Component = EStyleSheetDemo;
     }
     return <Component navigator={navigator} />
   }

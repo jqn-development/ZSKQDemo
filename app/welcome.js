@@ -85,6 +85,11 @@ export default class Welcome extends Component {
     this.props.navigator.push({name: 'datepicker'});
   }
 
+  onPressEstyleSheet(){
+    RNManager.showMessage("jump to estylesheet");
+    this.props.navigator.push({name: 'estylesheet'});
+  }
+
   onPressRNManager(){
     RNManager.showMessage(token);
   }
@@ -173,6 +178,10 @@ export default class Welcome extends Component {
 
         <Text style={styles.welcome} onPress={this.onPressDatePicker.bind(this)}>
           jump to date picker
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressEstyleSheet.bind(this)}>
+          jump to estylesheet
         </Text>
 
         <Text style={styles.welcome}  onPress={this.onPressRNManager.bind(this)}>
