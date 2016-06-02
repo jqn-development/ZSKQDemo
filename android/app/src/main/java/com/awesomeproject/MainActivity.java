@@ -1,6 +1,7 @@
 package com.awesomeproject;
 
 import com.facebook.react.ReactActivity;
+import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 
@@ -35,6 +36,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new RCTCameraPackage(),
             new RNPackage()
         );
     }

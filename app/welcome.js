@@ -18,8 +18,17 @@ import {
 let RNManager = NativeModules.RNManager;
 let token = RNManager.token;
 let splash = require('../img/splash_logo.png');
+const Device = require('react-native-device-detection');
+
+
 
 export default class Welcome extends Component {
+
+  componentDidMount(){
+    if(Device.isAndroid){
+      console.log("-----android-----");
+    }
+  }
 
   onPressFeed(){
     RNManager.showMessage("jump to feed");
@@ -49,6 +58,16 @@ export default class Welcome extends Component {
   onPressCalendar(){
     RNManager.showMessage("jump to bdmapview");
     this.props.navigator.push({name: 'calendar'});
+  }
+
+  onPressCamera(){
+    RNManager.showMessage("jump to camera");
+    this.props.navigator.push({name: 'camera'});
+  }
+
+  onPressModal(){
+    RNManager.showMessage("jump to modal");
+    this.props.navigator.push({name: 'modal'});
   }
 
   onPressRNManager(){
@@ -119,6 +138,14 @@ export default class Welcome extends Component {
 
         <Text style={styles.welcome} onPress={this.onPressCalendar.bind(this)}>
           jump to calendar
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressCamera.bind(this)}>
+          jump to camera
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressModal.bind(this)}>
+          jump to modal
         </Text>
 
         <Text style={styles.welcome}  onPress={this.onPressRNManager.bind(this)}>

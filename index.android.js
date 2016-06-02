@@ -19,6 +19,8 @@ import NavigationBarSample from './app/NavigationBarSample.js';
 import ExampleView from './app/ExampleView.js';
 import BDMapView from './app/MapView.js';
 import CalendarDemo from './app/CalendarDemo.js';
+import CameraDemo from './app/CameraDemo.js';
+import ModalDemo from './app/ModalDemo.js';
 
 let _navigator;
 
@@ -58,6 +60,12 @@ class AwesomeProject extends Component {
         break;
       case "calendar":
         Component = CalendarDemo;
+        break;
+      case "camera":
+        Component = CameraDemo;
+        break;
+      case "modal":
+        Component = ModalDemo;
         break;
     }
     return <Component navigator={navigator} />
