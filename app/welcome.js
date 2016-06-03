@@ -19,7 +19,7 @@ let RNManager = NativeModules.RNManager;
 let token = RNManager.token;
 let splash = require('../img/splash_logo.png');
 const Device = require('react-native-device-detection');
-
+import './Storage';
 
 
 export default class Welcome extends Component {
@@ -28,6 +28,24 @@ export default class Welcome extends Component {
     if(Device.isAndroid){
       console.log("-----android-----");
     }
+
+    var userA = {
+        name: 'A',
+        age: 20,
+        tags: [
+            'geek',
+            'nerd',
+            'otaku'
+        ]
+    };
+
+    Storage.save({
+        key: 'user',  // Note: Do not use underscore("_") in key!
+        id: '1001',   // Note: Do not use underscore("_") in id!
+        rawData: userA,
+        expires: 1000 * 60
+    });
+
   }
 
   onPressFeed(){

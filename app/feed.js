@@ -50,6 +50,19 @@ export default class Feed extends Component {
     console.log("now----",now);
     console.log("a.format()" + moment().format('MMMM Do YYYY, h:mm:ss a'));
     console.log("parse----" + queryString.stringify({color: ['taupe', 'chartreuse'], id: '515'}));
+
+    Storage.load({
+        key: 'user',
+        id: '1001'
+    }).then(ret => {
+        // found data goes to then()
+        console.log("name===="+ret.name);
+    }).catch(err => {
+        // any exception including data not found
+        // goes to catch()
+        console.warn(err);
+    });
+
   }
 
   _handlePress(event) {
