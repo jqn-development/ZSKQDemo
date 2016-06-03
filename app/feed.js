@@ -17,6 +17,18 @@ import moment from 'moment';
 import queryString from 'query-string';
 import * as Animatable from 'react-native-animatable';
 import Button from 'react-native-button';
+var I18n = require('react-native-i18n');
+
+I18n.fallbacks = true;
+I18n.translations = {
+  en:{
+    greeting: 'Hi!'
+  },
+  fr:{
+    greeting:'Bonjour!'
+  }
+}
+
 
 export default class Feed extends Component {
 
@@ -85,6 +97,8 @@ export default class Feed extends Component {
                   style={{fontSize: 20, color: 'green'}} >
            Press me!
          </Button>
+
+         <Text>{I18n.t('greeting')}</Text>
 
       </View>
     );

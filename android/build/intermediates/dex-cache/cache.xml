@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.2/jars/classes.jar"
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ed1c5bed21041f36b3eabf8afddca80e5d1c49b0">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-b6155372697ed9b684d2861c9f5b837bdd097aca.jar" />
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-cb509273880eefc5b68d9c34fd08849ca51ba0be.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-camera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="df24791942c168ea2d2839112dc339b7d5330797">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-2c52da6ad083cb8fce53d3a1453bb80da432f7ca.jar" />
     </item>
     <item
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
@@ -16,53 +23,11 @@
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-552b229b3a7099d05002786286846ccc558347f9.jar" />
     </item>
     <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-cb509273880eefc5b68d9c34fd08849ca51ba0be.jar" />
-    </item>
-    <item
-        jar="/Users/emily/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-0184062310d4d69bc62ae3931d5060f1ed4370bf.jar" />
-    </item>
-    <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-4a0b67a36ea367b71cdc3abd6a459bf6a3d54aca.jar" />
-    </item>
-    <item
-        jar="/Users/emily/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-caff2b8c3cc29a28404681d90bf16e809a558e59.jar" />
-    </item>
-    <item
         jar="/Users/emily/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-ee145978eb37728877f4f675df519dd9d482b6c8.jar" />
-    </item>
-    <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-camera/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="05c0556ab7ca0a83fd05ad22c99d81fa99083344">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-2c52da6ad083cb8fce53d3a1453bb80da432f7ca.jar" />
-    </item>
-    <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-3a84b9eedb6fecf7761bea4cd838efaa713c03aa.jar" />
     </item>
     <item
         jar="/Users/emily/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
@@ -93,20 +58,6 @@
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-485f1ecc29a8367bf9de61e57d44ebd56ee0a770.jar" />
     </item>
     <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-31d01b67c61990791a873aa40eed44439a1eea47.jar" />
-    </item>
-    <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-f48368540f2143ee4ba0132484e6d77e51fc8a7e.jar" />
-    </item>
-    <item
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.2/jars/libs/infer-annotations-1.5.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -121,11 +72,74 @@
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-4447b8a5b950c6a01073ddb12d969e06c066f026.jar" />
     </item>
     <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-i18n/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="421f4f64c07a35aa6b561ab12cc271fee8d2fecd">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-bccc9963b03c9e9a942700b337f6295f5af4579c.jar" />
+    </item>
+    <item
         jar="/Users/emily/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="129874135e6081269ace2312092031558865de12">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-8c5386cdf3a83bfcfbb05a190c55d499be94a513.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f0fe973dd22bb05e095848c359e9357b208ca385.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ed1c5bed21041f36b3eabf8afddca80e5d1c49b0">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-b6155372697ed9b684d2861c9f5b837bdd097aca.jar" />
+    </item>
+    <item
+        jar="/Users/emily/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-0184062310d4d69bc62ae3931d5060f1ed4370bf.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-3a84b9eedb6fecf7761bea4cd838efaa713c03aa.jar" />
+    </item>
+    <item
+        jar="/Users/emily/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-caff2b8c3cc29a28404681d90bf16e809a558e59.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-4a0b67a36ea367b71cdc3abd6a459bf6a3d54aca.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-31d01b67c61990791a873aa40eed44439a1eea47.jar" />
+    </item>
+    <item
+        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/classes-f48368540f2143ee4ba0132484e6d77e51fc8a7e.jar" />
     </item>
     <item
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.5/jars/classes.jar"
@@ -140,13 +154,6 @@
         revision="23.0.1"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-b7d3edc107568b67a50ca646da6134bb37b7d31f.jar" />
-    </item>
-    <item
-        jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f0fe973dd22bb05e095848c359e9357b208ca385.jar" />
     </item>
 
 </items>
