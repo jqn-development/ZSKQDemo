@@ -17,12 +17,21 @@ import {
 
 let RNManager = NativeModules.RNManager;
 let token = RNManager.token;
-let splash = require('../img/splash_logo.png');
+let splash = require('./img/splash_logo.png');
 const Device = require('react-native-device-detection');
 import './Storage';
 
 
 export default class Welcome extends Component {
+
+  constructor(props){
+    super(props);
+    this.state={
+      id:1,
+      users:null,
+    };
+  }
+
 
   componentDidMount(){
     if(Device.isAndroid){
@@ -48,15 +57,40 @@ export default class Welcome extends Component {
 
   }
 
+  onPressSectionHeaderList(){
+    const self = this;
+    RNManager.showMessage("jump to section header");
+    this.props.navigator.push({
+      name: 'sectionheader',
+    });
+  }
+
   onPressFeed(){
+    const self = this;
     RNManager.showMessage("jump to feed");
-    this.props.navigator.push({name: 'feed'});
+    this.props.navigator.push({
+      name: 'feed',
+      params:{
+        id:1,
+        getUser:function(user){
+          self.setState({
+            users:user
+          })
+        }
+      }
+    });
   }
 
   onPressNavbar(){
     RNManager.showMessage("jump to navbar");
     this.props.navigator.push({name: 'navbar'});
   }
+
+  onPressComponentNavbar(){
+    RNManager.showMessage("jump to component navbar");
+    this.props.navigator.push({name: 'componentnavbar'});
+  }
+
 
   onPressNavigator(){
     RNManager.showMessage("jump to navigator");
@@ -154,12 +188,22 @@ export default class Welcome extends Component {
 
       <Image style={styles.searchIcon} source={splash}/>
 
+        <Text style={styles.welcome}>用户信息{JSON.stringify(this.state.users)}</Text>
+
+        <Text style={styles.welcome} onPress={this.onPressSectionHeaderList.bind(this)}>
+          jump to section header list
+        </Text>
+
         <Text style={styles.welcome} onPress={this.onPressFeed.bind(this)}>
           jump to feed haha
         </Text>
 
         <Text style={styles.welcome} onPress={this.onPressNavbar.bind(this)}>
           jump to navbar
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressComponentNavbar.bind(this)}>
+          jump to component navbar
         </Text>
 
         <Text style={styles.welcome} onPress={this.onPressNavigator.bind(this)}>

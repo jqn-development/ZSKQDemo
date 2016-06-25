@@ -17,7 +17,7 @@ import Feed from './app/feed.js';
 import NavBar from './app/navigation/NavBar.js';
 import NavigationBarSample from './app/NavigationBarSample.js';
 import ExampleView from './app/ExampleView.js';
-import BDMapView from './app/MapView.js';
+import BDMapView from './app/MapViewPage.js';
 import CalendarDemo from './app/CalendarDemo.js';
 import CameraDemo from './app/CameraDemo.js';
 import ModalDemo from './app/ModalDemo.js';
@@ -25,6 +25,8 @@ import PhotoBrowserExample from './app/PhotoBrowserExample.js';
 import AreaPicker from './app/AreaPicker.js';
 import DatePicker from './app/DatePicker.js';
 import EStyleSheetDemo from './app/EStyleSheetDemo.js';
+import SectionHeaderList from './app/SectionHeaderList.js';
+import ComponentNavBar from './app/navigation/ComponentNavBar.js';
 
 let _navigator;
 
@@ -56,6 +58,10 @@ class AwesomeProject extends Component {
         Component = NavBar;
         console.log("Component navbar---",router.name);
         break;
+      case "componentnavbar":
+        Component = ComponentNavBar;
+        console.log("Component componentnavbar---",router.name);
+        break;
       case "animatable":
         Component = ExampleView;
         break;
@@ -79,8 +85,10 @@ class AwesomeProject extends Component {
         Component = DatePicker;
       case "estylesheet":
         Component = EStyleSheetDemo;
+      case "sectionheader":
+        Component = SectionHeaderList;
     }
-    return <Component navigator={navigator} />
+    return <Component navigator={navigator} {...router.params}/>
   }
 
   componentDidMount(){

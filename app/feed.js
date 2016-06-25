@@ -18,6 +18,10 @@ import queryString from 'query-string';
 import * as Animatable from 'react-native-animatable';
 import Button from 'react-native-button';
 var I18n = require('react-native-i18n');
+const USER_MODELS = {
+  1: {name: 'mot', age: 23},
+  2: {name: 'hchchc', age:25}
+}
 
 I18n.fallbacks = true;
 I18n.translations = {
@@ -36,13 +40,31 @@ export default class Feed extends Component {
     super(props);
     this.state = {
       fontSize: 9,
+      id: null,
     };
   }
 
   componentWillMount(){
     DeviceEventEmitter.addListener("SEND_EMITTER_TEST",(eventBody)=>{
       console.log(eventBody['arg1']+"--------");
+      
+      this.setState({
+        id:this.props.id
+      });
     });
+  }
+
+  _pressButton(){
+    const {navigator} = this.props;
+
+    if(this.props.getUser){
+      let u = USER_MODELS[this.props.id];
+      this.props.getUser(u);
+    }
+
+    if(navigator){
+      navigator.pop();
+    }
   }
 
   componentDidMount(){
@@ -72,7 +94,7 @@ export default class Feed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <Text style={styles.welcome} onPress={this._pressButton.bind(this)}>
           feed page!
         </Text>
         <Animatable.Text animation="zoomInUp">Zoom me up, Scotty</Animatable.Text>

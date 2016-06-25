@@ -1,6 +1,7 @@
 package com.awesomeproject;
 
 import com.facebook.react.ReactActivity;
+import com.yiyang.reactnativebaidumap.ReactMapPackage;
 import com.i18n.reactnativei18n.ReactNativeI18n;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.facebook.react.ReactPackage;
@@ -37,6 +38,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new ReactMapPackage(),
             new ReactNativeI18n(),
             new RCTCameraPackage(),
             new RNPackage()

@@ -31,4 +31,4 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:textSize="13sp"/>
-</com.kaopiz.kprogresshud.BackgroundLayout><!-- From: file:/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.5/res/layout/kprogresshud_hud.xml -->
+</com.kaopiz.kprogresshud.BackgroundLayout>
