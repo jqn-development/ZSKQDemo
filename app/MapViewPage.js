@@ -25,7 +25,7 @@ export default class MapViewPage extends Component {
           console.log("location get current position: ", position);
           const lat = position.coords.latitude;
           const long = position.coords.longitude;
-          //this.refs["mapView"].zoomToLocs([[lat, long]]);
+          this.refs["mapView"].zoomToLocs([[lat, long]]);
       }, (error) => {
           console.log("location get current position error: ", error);
       });
@@ -49,6 +49,7 @@ export default class MapViewPage extends Component {
           userLocationViewParams={{accuracyCircleFillColor: 'red', image: require('./img/start_icon.png')}}
           annotations={[{latitude: 39.832136, longitude: 116.34095, title: "start", subtile: "hello", image: require('./img/amap_start.png')}, {latitude: 39.902136, longitude: 116.44095, title: "end", subtile: "hello", image: require('./img/amap_end.png')}]}
           overlays={[{coordinates: [{latitude: 39.832136, longitude: 116.34095}, {latitude: 39.832136, longitude: 116.42095}, {latitude: 39.902136, longitude: 116.42095}, {latitude: 39.902136, longitude: 116.44095}], strokeColor: '#ff0000', lineWidth: 3}]}
+          userInfoWindow={{latitude:31.281414, longitude:120.545481, address:'zhu yuan road 209'}}
         />
 
       </View>

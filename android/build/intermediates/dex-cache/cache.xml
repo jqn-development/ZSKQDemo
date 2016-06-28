@@ -40,7 +40,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-baidumap/unspecified/jars/libs/BaiduLBS_Android.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="efe8d25a0cdeca76b7bfd48840a688731f6cbc19">
+        sha1="b3c953e8be77d436ab69e0c702815d6238fb3d64">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_ff25d0c6fd019c7d0432027f0f7c128645a14122.jar" />
     </item>
     <item
@@ -96,7 +96,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-baidumap/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="34108c89ff8797909ac04663cbb144a3f8845303">
+        sha1="3b2f9abdef34ea8f6ec9463ac1e67d3bfe144c57">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/AwesomeProject-react-native-baidumap-unspecified_ea9f95397780f6a181b30a49e4ca99e112790aeb.jar" />
     </item>
     <item
