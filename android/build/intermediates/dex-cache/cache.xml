@@ -40,7 +40,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-baidumap/unspecified/jars/libs/BaiduLBS_Android.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="9337c09d0ca979574155b2ea8b4d3870338cbe0a">
+        sha1="e88161b48312f7a5cafd0d35448a87d44f5ad712">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_ff25d0c6fd019c7d0432027f0f7c128645a14122.jar" />
     </item>
     <item
@@ -96,7 +96,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-baidumap/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="cc7487b3ece15f7270cb22f5fd03e72fecdfd2c0">
+        sha1="a03bf0f94385450ed3f8b588a66b5aaabea46d1f">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/AwesomeProject-react-native-baidumap-unspecified_ea9f95397780f6a181b30a49e4ca99e112790aeb.jar" />
     </item>
     <item
@@ -138,7 +138,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-i18n/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d23916d1ba6c65cda4339a328ee76d015ac36bcf">
+        sha1="8461aaa06de1fdf4a7d44ff80f5d39b00ee75fe8">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/AwesomeProject-react-native-i18n-unspecified_bccc9963b03c9e9a942700b337f6295f5af4579c.jar" />
     </item>
     <item
@@ -173,7 +173,7 @@
         jar="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/exploded-aar/AwesomeProject/react-native-camera/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="5e27838bea2ab1757968b1671c4e133fde7b3c78">
+        sha1="a40f70415fafbe68ed123ce00c367d8cf2930bc7">
         <dex dex="/Users/emily/dev_temp/ZSKQDemo/android/app/build/intermediates/pre-dexed/debug/AwesomeProject-react-native-camera-unspecified_2c52da6ad083cb8fce53d3a1453bb80da432f7ca.jar" />
     </item>
     <item
