@@ -486,7 +486,8 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f020049
 int drawable abc_textfield_search_material 0x7f02004a
 int drawable kprogresshud_spinner 0x7f02004b
 int drawable location 0x7f02004c
-int drawable notification_template_icon_bg 0x7f02004d
+int drawable logo 0x7f02004d
+int drawable notification_template_icon_bg 0x7f02004e
 int id action0 0x7f0d005e
 int id action_bar 0x7f0d004a
 int id action_bar_activity_content 0x7f0d0000
