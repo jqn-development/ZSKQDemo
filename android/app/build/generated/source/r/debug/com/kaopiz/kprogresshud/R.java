@@ -8,8 +8,8 @@ package com.kaopiz.kprogresshud;
 
 public final class R {
 	public static final class color {
-		public static final int kprogresshud_default_color = 0x7f0c001e;
-		public static final int kprogresshud_grey_color = 0x7f0c001f;
+		public static final int kprogresshud_default_color = 0x7f0c001f;
+		public static final int kprogresshud_grey_color = 0x7f0c0020;
 	}
 	public static final class drawable {
 		public static final int kprogresshud_spinner = 0x7f02004b;
