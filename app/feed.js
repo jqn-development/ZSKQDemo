@@ -17,6 +17,9 @@ import moment from 'moment';
 import queryString from 'query-string';
 import * as Animatable from 'react-native-animatable';
 import Button from 'react-native-button';
+// var DeviceInfo = require('react-native-device-info');
+import DeviceInfo from 'react-native-device-info';
+
 var I18n = require('react-native-i18n');
 const USER_MODELS = {
   1: {name: 'mot', age: 23},
@@ -52,6 +55,40 @@ export default class Feed extends Component {
         id:this.props.id
       });
     });
+
+    console.log("-------------------------device info start---------------------------"); 
+
+    console.log("Device Unique ID", DeviceInfo.getUniqueID());  // e.g. FCDBD8EF-62FC-4ECB-B2F5-92C9E79AC7F9  '1f737c940d33aaa5'
+    // * note this is IDFV on iOS so it will change if all apps from the current apps vendor have been previously uninstalled
+
+    console.log("Device Manufacturer", DeviceInfo.getManufacturer());  // e.g. Apple  'nubia'
+
+    console.log("Device Model", DeviceInfo.getModel());  // e.g. iPhone 6  'NX512J'
+
+    console.log("Device ID", DeviceInfo.getDeviceId());  // e.g. iPhone7,2 / or the board on Android e.g. goldfish 'msm8916'
+
+    console.log("Device Name", DeviceInfo.getSystemName());  // e.g. iPhone OS 'Android'
+
+    console.log("Device Version", DeviceInfo.getSystemVersion());  // e.g. 9.0 '5.1.1'
+
+    console.log("Bundle Id", DeviceInfo.getBundleId());  // e.g. com.learnium.mobile 'com.awesomeproject'
+
+    console.log("Build Number", DeviceInfo.getBuildNumber());  // e.g. 89 1
+
+    console.log("App Version", DeviceInfo.getVersion());  // e.g. 1.1.0  '1.0'
+
+    console.log("App Version (Readable)", DeviceInfo.getReadableVersion());  // e.g. 1.1.0.89  '1.0.1'
+
+    console.log("Device Name", DeviceInfo.getDeviceName());  // e.g. Becca's iPhone 6  'NX512J'
+
+    console.log("User Agent", DeviceInfo.getUserAgent()); // e.g. Dalvik/2.1.0 (Linux; U; Android 5.1; Google Nexus 4 - 5.1.0 - API 22 - 768x1280 Build/LMY47D)   'Dalvik/2.1.0 (Linux; U; Android 5.1.1; NX512J Build/LMY47V)'
+
+    console.log("Device Locale", DeviceInfo.getDeviceLocale()); // e.g en-US
+
+    console.log("Device Country", DeviceInfo.getDeviceCountry()); // e.g US
+
+     console.log("-------------------------device info end---------------------------"); 
+
   }
 
   _pressButton(){

@@ -3547,11 +3547,11 @@
                 "from": {
                     "file": "/Users/emily/dev_temp/ZSKQDemo/android/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 21,
+                        "startOffset": 24,
                         "endColumn": 51,
-                        "endOffset": 68
+                        "endOffset": 71
                     }
                 }
             },

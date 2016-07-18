@@ -131,6 +131,8 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-barcodescanner')
+    compile project(':react-native-device-info')
     compile project(':react-native-baidumap')
     compile project(':react-native-i18n')
     compile project(':react-native-camera')

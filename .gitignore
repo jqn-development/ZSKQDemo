@@ -20,26 +20,43 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+*.xcworkspace
+Pods/
 
 # Android/IJ
 #
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
 *.iml
+bin/
+gen/
+out/
+build/
+captures/
 .idea
 .gradle
+.navigation/
 local.properties
+android/keystores/debug.keystore
+drawable-mdpi/
+drawable-xhdpi/
+drawable-xxhdpi/
 
 # node.js
 #
 node_modules/
 npm-debug.log
 
-# Atom
-.tags
-.tags1
+# BUCK
+#
+buck-out/
+\.buckd/
 
-# CocoaPods
-Pods/
-
-#emacs
-*~
+# Visual Studio Code
+#
+.vscode/*.js
+.vscode/.react
+.vscode/typings

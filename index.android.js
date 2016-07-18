@@ -27,6 +27,8 @@ import DatePicker from './app/DatePicker.js';
 import EStyleSheetDemo from './app/EStyleSheetDemo.js';
 import SectionHeaderList from './app/SectionHeaderList.js';
 import ComponentNavBar from './app/navigation/ComponentNavBar.js';
+import GridViewSample from './app/GridViewSample.js';
+import QRScan from './app/QRScan.js';
 
 let _navigator;
 
@@ -87,6 +89,10 @@ class AwesomeProject extends Component {
         Component = EStyleSheetDemo;
       case "sectionheader":
         Component = SectionHeaderList;
+      case "gridviewsample":
+        Component = GridViewSample;
+      case "qrscan":
+        Component = QRScan;
     }
     return <Component navigator={navigator} {...router.params}/>
   }

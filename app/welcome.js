@@ -65,6 +65,22 @@ export default class Welcome extends Component {
     });
   }
 
+  onPressBarCode(){
+    const self = this;
+    RNManager.showMessage("jump to QR scan");
+    this.props.navigator.push({
+      name: 'qrscan',
+    });
+  }
+
+  onPressGridViewSample(){
+    const self = this;
+    RNManager.showMessage("jump to grid view");
+    this.props.navigator.push({
+      name: 'gridviewsample',
+    });
+  }
+
   onPressFeed(){
     const self = this;
     RNManager.showMessage("jump to feed");
@@ -191,7 +207,15 @@ export default class Welcome extends Component {
         <Text style={styles.welcome}>用户信息{JSON.stringify(this.state.users)}</Text>
 
         <Text style={styles.welcome} onPress={this.onPressSectionHeaderList.bind(this)}>
+          jump to section QRScan
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressSectionHeaderList.bind(this)}>
           jump to section header list
+        </Text>
+
+        <Text style={styles.welcome} onPress={this.onPressGridViewSample.bind(this)}>
+          jump to gridview sample page
         </Text>
 
         <Text style={styles.welcome} onPress={this.onPressFeed.bind(this)}>
